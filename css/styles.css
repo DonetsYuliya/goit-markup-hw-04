@@ -338,7 +338,7 @@ body {
     padding-top: 50px;
     gap: 30px;
 }
-.client-cont {
+.client-link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -350,12 +350,12 @@ body {
 .client-list-icon {
     fill: var(--main-icon-color);
 }
-.client-cont:hover .client-list-icon,
-.client-cont:focus .client-list-icon {
+.client-link:hover .client-list-icon,
+.client-link:focus .client-list-icon {
     fill: var(--brand-color);
 }
-.client-cont:hover,
-.client-cont:focus {
+.client-link:hover,
+.client-link:focus {
     border-color: var(--brand-color);
 }
 /* --------------! FOOTER ------------- */
